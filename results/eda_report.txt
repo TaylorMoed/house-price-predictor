@@ -1,0 +1,77 @@
+Exploratory Data Analysis Report
+
+Dataset Overview
+
+* Dataset: Ames Housing Dataset
+* Total Houses: 2,930
+* Total Features: 82
+* Prediction Target: SalePrice
+
+⸻
+
+Feature Types
+
+* Numerical Features: 39
+* Categorical Features: 43
+
+⸻
+
+Missing Values
+
+The dataset contains missing values in several columns.
+
+Columns with the most missing values:
+
+* Pool QC
+* Misc Feature
+* Alley
+* Fence
+* Mas Vnr Type
+* Fireplace Qu
+
+Many of these missing values appear to represent the absence of a feature (for example, no pool or no alley access) rather than missing data.
+
+⸻
+
+Summary Statistics
+
+* Average Sale Price: Approximately $180,796
+* Minimum Sale Price: $12,789
+* Maximum Sale Price: $755,000
+
+The dataset contains a wide range of house prices suitable for a regression problem.
+
+⸻
+
+Visualizations Created
+
+* Sale Price Distribution
+* Living Area vs. Sale Price
+* Overall Quality vs. Sale Price
+* Garage Area vs. Sale Price
+* Year Built vs. Sale Price
+* Top Feature Correlations with Sale Price
+
+⸻
+
+Initial Observations
+
+* Larger homes generally sell for higher prices.
+* Houses with higher overall quality tend to have significantly higher sale prices.
+* Newer homes generally have higher sale prices than older homes.
+* Garage area shows a positive relationship with sale price.
+* Several columns contain many missing values that will need to be handled during data cleaning.
+
+⸻
+
+Next Steps
+
+Phase 3: Data Cleaning
+
+Tasks:
+
+* Handle missing values.
+* Remove or retain columns with excessive missing data.
+* Encode categorical variables.
+* Handle outliers.
+* Prepare the dataset for machine learning.

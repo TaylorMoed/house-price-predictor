@@ -1,0 +1,10 @@
+===== Linear Regression =====
+
+Mean Absolute Error:
+$29,985.50
+
+Root Mean Squared Error:
+$46,347.56
+
+R² Score:
+0.732
