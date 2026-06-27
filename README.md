@@ -203,7 +203,7 @@ Installation
 
 Clone the repository:
 
-git clone https://github.com/yourusername/house-price-predictor.git
+git clone https://github.com/TaylorMoed/house-price-predictor.git
 
 Install the required packages:
 
